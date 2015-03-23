@@ -1,10 +1,10 @@
 {
-  "name": "ci",
+  "name": "CAM",
   "version": "1.0.0",
   "authors": [
     "Jonacius Villamor <jonacius.codeitat@gmail.com>"
   ],
-  "description": "sample application",
+  "description": "A CodeIgniter, Angular.js, and MongoDB stack template",
   "license": "MIT",
   "ignore": [
     "**/.*",
