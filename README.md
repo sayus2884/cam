@@ -1,4 +1,4 @@
-# codeigniter-angular-mongodb template
+# A CodeIgniter, Angular.js, and MongoDB Template
 
 ## Requires
 
