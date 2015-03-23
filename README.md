@@ -1,4 +1,4 @@
-# A CodeIgniter, Angular.js, and MongoDB Template
+# CodeIgniter, Angular.js, & MongoDB Stack
 
 ## Requires
 
