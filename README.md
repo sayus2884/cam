@@ -11,6 +11,7 @@
 In command console, input commands:
 
 npm install && bower install
+
 grunt
 
 ## Note
