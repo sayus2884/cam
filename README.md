@@ -1,4 +1,4 @@
-# codeigniter-angular-mongodb template
+# CodeIgniter, Angular.js, & MongoDB Stack
 
 ## Requires
 
@@ -11,6 +11,7 @@
 In command console, input commands:
 
 npm install && bower install
+
 grunt
 
 ## Note
