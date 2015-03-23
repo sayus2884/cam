@@ -1,12 +1,12 @@
 {
-  "name": "ci",
+  "name": "CAM",
   "version": "1.0.0",
-  "description": "sample application",
+  "description": "A CodeIgniter, Angular.js, and MongoDB stack template",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "sayus2884",
   "license": "ISC",
   "devDependencies": {
     "grunt": "^0.4.5",
