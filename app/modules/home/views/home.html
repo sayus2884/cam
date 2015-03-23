@@ -1,0 +1,87 @@
+<style>
+    #stack{
+        text-align: center;
+        padding: 10px 0 0 0;        
+    }
+    
+    #logo{
+        height: 120px;
+    }
+    
+    #contact > li{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #contact > li > img{
+        width: 30px;
+        margin: 10px 0 10px 0;
+    }
+    
+    footer{
+        border-top: 1px solid;
+        border-color: #ccc9c9;
+    }
+</style>
+
+<div class="container">
+    <div class="container" id="stack">
+        <img id="logo" src="app/modules/home/images/ci.png">
+        <img id="logo" src="app/modules/home/images/angularjs.png">
+        <img id="logo" src="app/modules/home/images/mongo.png">   
+        <h3>CodeIgniter + Angular.js + MongoDB</h3>
+    </div>  
+    
+    <div class="jumbotron">
+        <h1>Yo! {{name}} here! </h1>
+        <description></description>
+    </div>
+    
+    <div class="alert alert-info" role="alert">
+        <b>Heads up!</b> Everytime you add or change a javascript file in the app folder, be sure to run the <b>grunt</b> command in
+        your command console. Also be sure that the javascript files are called in the <b>index.html</b>. If I have some time, I'll
+        try to automate this so you don't have to run the command all the time.
+    </div>
+    
+    <div class="row">
+        <div class="col-xs-6">
+            <h2>Don't Know Anything About Them?</h2>
+
+            <p>Don't worry, here are some links that could help you get started with them.</p>
+
+            <h3>CodeIgniter</h3>
+            <ul>
+                <li><a href="http://www.codeigniter.com/">Official website</a></li>
+                <li><a href="http://tutorialcodeigniter.com/">Beginner video tutorials by arunoda</a></li>
+            </ul>
+
+
+            <h3>Angular</h3>
+            <ul>
+                <li><a href="https://angularjs.org/">Official website</a></li>
+                <li><a href="http://angular.codeschool.com/">Shape up with Angular.js in Code School</a></li>
+            </ul>
+
+            <h3>MongoDB</h3>
+            <ul>
+                <li><a href="https://www.mongodb.org/">Offical website</a></li>
+                <li><a href="http://php.net/manual/en/mongo.tutorial.php">Tutorial on MongoDB with php</a></li>
+            </ul>
+        </div>
+        
+        <div class="col-xs-6">
+            <h2>Any Suggestions? Found Some Bugs? </h2>
+            
+            <p>I'd love to hear some feedback from you. You can send me a message anytime at the following:</p>
+            
+            <ul id="contact">
+                <li ng-repeat="contact in contacts.info"><img ng-src="{{contact.image}}"> {{contact.contactInfo}}</li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        <h6>by {{author}}</h6>
+    </footer>
+</div>
