@@ -10,10 +10,10 @@
 
 In command console, input commands:
 
-npm install && bower install
+`npm install` && `bower install`
 
-grunt
+`grunt`
 
 ## Note
 
-Run grunt again if you are changing or adding javascript files in app folder.
+Run `grunt` again if you are changing or adding javascript files in app folder.
